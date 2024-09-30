@@ -17,6 +17,8 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
+/* NAVBAR */
+
 .container {
   width: 1440px;
   padding: 0 15px;
@@ -36,7 +38,7 @@ body {
 }
 .navbar_sections {
   font-weight: 400;
-  font-size: 17px;
+  font-size: 25px;
   line-height: 27px;
   display: flex;
   align-items: center;
@@ -52,4 +54,86 @@ body {
 
 .current a {
   color: var(--current);
+}
+
+/* TITLE */
+
+.title_container {
+  height: 913px;
+  display: flex;
+  justify-content: center;
+}
+
+.title_content {
+  width: 1400px;
+  height: 913;
+  margin-left: 20px;
+}
+
+.title {
+  width: 1300px;
+  height: 874px;
+  margin-top: 40px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title_left img {
+  width: 650px;
+  height: 873px;
+}
+
+.title_left {
+}
+
+.title_right {
+  width: 526px;
+  height: 176px;
+  color: var(--main-text-color);
+}
+
+.title_right p {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+}
+
+.title_right p span {
+  font-weight: 700;
+}
+
+.under {
+  display: flex;
+  flex-direction: column;
+}
+
+.title_right .line {
+  width: 163px;
+  height: 11px;
+}
+
+.listen_on {
+  width: 289px;
+  height: 72px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.listen_logos {
+  display: flex;
+  gap: 15px;
+}
+
+.social_logo {
+  list-style-type: none;
+  width: 32px;
+  height: 32px;
 }
