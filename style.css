@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --body-bg: #191919;
+  --main-text-color: #fff;
+  --current: #118da8;
+  --card-bg: #000;
+  --text-color: rgba(255, 255, 255, 0.7);
+}
+
+body {
+  background-color: var(--body-bg);
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  width: 1440px;
+  padding: 0 15px;
+  margin: auto;
+}
+.navbar {
+  height: 119px;
+  width: 1330px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_logo {
+  width: 160px;
+  height: 33px;
+}
+.navbar_sections {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+.navbar_section a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.current a {
+  color: var(--current);
+}
