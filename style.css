@@ -35,10 +35,11 @@ body {
 .navbar_logo {
   width: 160px;
   height: 33px;
+  padding-left: 50px;
 }
 .navbar_sections {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 17px;
   line-height: 27px;
   display: flex;
   align-items: center;
@@ -67,17 +68,15 @@ body {
 .title_content {
   width: 1400px;
   height: 913;
-  margin-left: 20px;
 }
 
 .title {
   width: 1300px;
   height: 874px;
-  margin-top: 40px;
-  margin-left: 50px;
+  margin-left: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .title_left img {
@@ -89,14 +88,15 @@ body {
 }
 
 .title_right {
-  width: 526px;
-  height: 176px;
+  width: 530px;
+  height: 610px;
+  padding-top: 200px;
   color: var(--main-text-color);
 }
 
 .title_right p {
   font-weight: 400;
-  font-size: 80px;
+  font-size: 70px;
   line-height: 88px;
   letter-spacing: 3.2px;
 }
@@ -136,4 +136,80 @@ body {
   list-style-type: none;
   width: 32px;
   height: 32px;
+}
+
+/* EPISODES */
+
+.episodes_container {
+  height: 2088px;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.episodes_navbar {
+  width: 1300px;
+  height: 99px;
+  top: 100px;
+  left: 50px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.episodes_navbar p {
+  width: 513px;
+  height: 80px;
+  top: -7.44px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  color: var(--main-text-color);
+}
+
+.episodes_buttons {
+  display: flex;
+  gap: 1px;
+}
+
+.episodes_buttons button {
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--main-text-color);
+  line-height: 27px;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+}
+
+.episodes_buttons .left {
+  border-radius: 6px 0px 0px 6px;
+}
+
+.episodes_buttons .active {
+  background-color: var(--current);
+}
+
+.episodes_buttons .right {
+  border-radius: 0px 6px 6px 0px;
+}
+
+.episodes_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.episodes_card {
+  width: 1300px;
+  height: 512px;
+  border-radius: 32px;
+  background-color: var(--card-bg);
 }
