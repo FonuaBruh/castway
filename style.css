@@ -141,7 +141,6 @@ body {
 /* EPISODES */
 
 .episodes_container {
-  height: 2088px;
   display: flex;
   justify-content: flex-start;
   padding-top: 100px;
@@ -209,7 +208,73 @@ body {
 
 .episodes_card {
   width: 1300px;
-  height: 512px;
   border-radius: 32px;
   background-color: var(--card-bg);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_left {
+  padding: 45px;
+}
+
+.card_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 45px;
+}
+
+.card_right p {
+  color: var(--current);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.card_right h1 {
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+  letter-spacing: 2.56px;
+  padding-top: 20px;
+}
+
+.card_right h2 {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  font-style: 20px;
+  line-height: 33px;
+  padding-top: 25px;
+}
+
+.details {
+  font-weight: 400;
+  line-height: 27px;
+  width: 208px;
+  height: 51px;
+  color: var(--main-text-color);
+  background-color: var(--current);
+  border-radius: 6px;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.card_type {
+  background-color: var(--body-bg);
+  border: none;
+  border-radius: 6px;
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-style: 18px;
+  line-height: 27px;
+  margin-bottom: 50px;
+  width: 73px;
+  height: 27px;
+  text-align: center;
 }
