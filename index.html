@@ -11,14 +11,14 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="container" id="home">
         <nav class="navbar">
             <a class="navbar_logo"><img src="./components/logo.svg" alt="Castway"></a>
             <ul class="navbar_sections">
-                <li class="navbar_section current"><a href="#">Home</a></li>
-                <li class="navbar_section"><a href="#">Episodes</a></li>
-                <li class="navbar_section"><a href="#">About</a></li>
-                <li class="navbar_section"><a href="#">Contact</a></li>
+                <li class="navbar_section current"><a href="#home">Home</a></li>
+                <li class="navbar_section"><a href="#episodes">Episodes</a></li>
+                <li class="navbar_section"><a href="#reviews">Reviews</a></li>
+                <li class="navbar_section"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -51,7 +51,7 @@
         </div>
     </section>
 
-    <section class="episodes_container">
+    <section class="episodes_container" id="episodes">
         <div class="episodes_navbar">
             <p>Latest episodes</p>
             <div class="episodes_buttons">
@@ -111,7 +111,7 @@
         </div>
     </section>
 
-    <section class="reviews">
+    <section class="reviews" id="reviews">
 
         <div class="reviews_content">
             <div class="review_card">
@@ -207,6 +207,35 @@
         </div>
             
     </section>
+
+    <footer class="footer" id="contact">
+        <div class="footer_container">
+            <a class="navbar_logo"><img src="./components/logo.svg" alt="Castway"></a>
+            <div class="footer_right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#episodes">Episodes</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Style Guide</a></li>
+                    <li><a href="#">Instructions</a></li>
+                    <li><a href="#">Changelog</a></li>
+                    <li><a href="#">Credit</a></li>
+                    <li><a href="#">Powered by Webflow</a></li>
+                    <li><a href="#">Licenses</a></li>
+                </ul>
+                <ul class="listen_logos">
+                    <li class="social_logo"><a href="#"><img src="./components/IMAGE1.png" alt="socials"></a></li>
+                    <li class="social_logo"><a href="#"><img src="./components/IMAGE2.png" alt="socials"></a></li>
+                    <li class="social_logo"><a href="#"><img src="./components/IMAGE3.png" alt="socials"></a></li>
+                    <li class="social_logo"><a href="#"><img src="./components/IMAGE4.png" alt="socials"></a></li>
+                    <li class="social_logo"><a href="#"><img src="./components/IMAGE5.png" alt="socials"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
     <script src="main.js"></script>
 </body>

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -395,4 +396,42 @@ body {
 .review_stars {
   padding-top: 20px;
   padding-left: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 50px 0;
+}
+
+.footer_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1300px;
+}
+
+.footer_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer_right ul {
+  padding-right: 100px;
+  list-style-type: none;
+}
+
+.footer_right ul a {
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.footer_right li {
+  line-height: 35px;
 }
